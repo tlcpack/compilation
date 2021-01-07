@@ -4,6 +4,7 @@ import Index from '@/components/Index'
 import Create from '@/components/Create'
 import Edit from '@/components/Edit'
 import Details from '@/components/Details'
+import Financials from '@/components/Financials'
 
 Vue.use(VueRouter)
 
@@ -33,5 +34,10 @@ export default new VueRouter({
             name: 'index',
             component: Index
         },
+        {
+            path: '/financials',
+            name: 'financials',
+            component: Financials
+        }
     ]
 })
