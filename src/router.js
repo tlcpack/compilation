@@ -6,6 +6,7 @@ import Edit from '@/components/Edit'
 import Details from '@/components/Details'
 import Financials from '@/components/Financials'
 import Markdown from '@/components/Markdown'
+import Chess from '@/components/Chess'
 
 Vue.use(VueRouter)
 
@@ -44,6 +45,11 @@ export default new VueRouter({
             path: '/markdown',
             name: 'markdown',
             component: Markdown
+        },
+        {
+            path: '/chess',
+            name: 'chess',
+            component: Chess
         }
     ]
 })
